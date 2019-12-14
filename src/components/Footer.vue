@@ -12,9 +12,9 @@
         </div>
         <div class="flex flex-wrap md:flex-row w-full ">
             <div class="md:w-1/2 flex flex-col p-4 md:p-40">
-                <div><a :href="platzi">Visita mi perfil en Platzi</a></div>
-                <div><a :href="github">Visita mi GitHub</a></div>
-                <div><a :href="linkedin">Visita mi Linkedin</a></div>
+                <div><a :href="platzi" target="_blank">Visita mi perfil en Platzi</a></div>
+                <div><a :href="github" target="_blank">Visita mi GitHub</a></div>
+                <div><a :href="linkedin" target="_blank">Visita mi Linkedin</a></div>
             </div>
             <div class="md:w-1/2 flex flex-col p-4 md:p-40">
                 <div class="flex flex-row">
