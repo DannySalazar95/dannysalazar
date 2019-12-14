@@ -52,7 +52,7 @@
                         },
                         description:'Desarrollo y mantenimiento de sistema intranet , utilizando las siguientes herramientas, tecnologías y lenguajes: `Laravel` `php` `Vuejs` `vuex` `jquery` `boostrap` `Mysql` `Git Lab` y otros',
                         link:'https://stm.edu.pe/',
-                        work_dates:'Abril de 2019 - Oct de 2019'
+                        work_dates:'Marzo de 2019 - Oct de 2019'
                     },
                     {
                         company: 'Secundaria creativa',
@@ -63,7 +63,7 @@
                         },
                         description:'Mantemiento de sistema web y desarrollo de app-android SECREA. El desarrollo de la app se realizó con el framework `react-native`',
                         link:'https://www.secundariacreativa.com/',
-                        work_dates:'Mayo de 2017 - Enero de 2019'
+                        work_dates:'Mayo de 2018 - Enero de 2019'
                     },
                     {
                         company: 'Universidad de Lambayeque',
