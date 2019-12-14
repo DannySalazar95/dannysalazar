@@ -18,7 +18,7 @@
                     </a>
                 </div>
                 <div class="flex items-center">
-                    <img class="w-10 h-10 rounded-full mr-4" src="/img/profile.jpg" alt="Avatar of Danny Salazar">
+                    <img class="w-10 h-10 rounded-full mr-4" :src="`${url}/img/profile.jpg`" alt="Avatar of Danny Salazar">
                     <div class="text-sm">
                         <p class="text-gray-900 leading-none">{{name}}</p>
                     </div>
@@ -41,6 +41,7 @@
         },
         data(){
             return {
+                url: process.env.VUE_APP_URL,
                 name:process.env.VUE_APP_NAME,
                 works:[
                     {

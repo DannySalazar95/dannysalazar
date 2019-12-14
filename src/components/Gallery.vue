@@ -6,7 +6,7 @@
                 <div v-for="({src,name}, i_index) in images" :key="i_index" class="md:w-1/3 p-2">
                     <div class="border border-gray-400 p-1">
                         <div class="relative">
-                            <img :src="src" :alt="name"/>
+                            <img :src="`${url}${src}`" :alt="name"/>
                             <div class="absolute top-0  right-0 text-white text-right pb-5 pl-5 pt-2 pr-2 z-10 rounded-bl-full bg-gray-800">
                                 {{name}}
                             </div>
@@ -26,6 +26,7 @@
         },
         data(){
             return{
+                url: process.env.VUE_APP_URL,
                 gallery_by_work:[
                     {
                         company: 'STM',
