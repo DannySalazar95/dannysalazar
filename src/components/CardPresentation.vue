@@ -1,12 +1,12 @@
 <template>
-    <div id="start" class="flex w-full md:w-3/5 md:mx-auto">
-        <div class="w-full bg-gray-200 border border-gray-400 lg:border-gray-400 bg-white p-4 flex flex-col justify-between leading-normal">
+    <div id="start" class="flex w-full md:w-3/5 md:mx-auto pb-20 md:py-20">
+        <div class="w-full bg-gray-100 p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
                 <p class="text-sm text-gray-600 text-right">
-                    Lambayeque,Perú
+                    
                 </p>
-                <div class="text-gray-800 font-bold text-5xl mb-2">
-                    Bienvenido a mi Portafolio Web
+                <div id="CP_title" class="text-gray-800 font-bold text-4xl md:text-6xl mb-2">
+                    PORTAFOLIO WEB
                 </div>
                 <div class="flex flex-col text-base">
                     <div v-for="(dato,index) in list_info" :key="index" class="w-full flex flex-row text-gray-700">
@@ -19,7 +19,7 @@
                 <img class="w-10 h-10 rounded-full mr-4" :src="`${url}/img/profile.jpg`" alt="Avatar of Danny Salazar">
                 <div class="text-sm">
                     <p class="text-gray-900 leading-none">{{name}}</p>
-                    <p class="text-gray-600">05 de septiembre de 1995</p>
+                    <p class="text-gray-600">{{ (new Date).getFullYear() - 1995 }} años - Lambayeque,Perú</p>
                 </div>
             </div>
         </div>
@@ -54,24 +54,33 @@
                             path_d: 'M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z',
                             view_box: '0 0 512 512',
                         },
-                        content: 'danny.namuche.1995@gmail.com' 
+                        content: process.env.VUE_APP_EMAIL_1 
                     },
                     {
                         icon_svg: {
                             path_d: 'M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z',
                             view_box: '0 0 512 512',
                         },
-                        content: 'danny.namuche.1995@hotmail.com' 
+                        content: process.env.VUE_APP_EMAIL_2
                     },
                     {
                         icon_svg: {
                             path_d: 'M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z',
                             view_box: '0 0 320 512',
                         },
-                        content: '970679867' 
+                        content: process.env.VUE_APP_PHONE 
                     }
                 ]
             }
         }
     }
 </script>
+
+<style>
+    
+    @media (min-width: 768px) {
+        #CP_title{
+            margin-top:-60px;
+        }
+    }
+</style>

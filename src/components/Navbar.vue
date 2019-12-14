@@ -2,7 +2,7 @@
     <nav class="fixed top-0 flex items-center justify-between flex-wrap bg-gray-800 p-6 w-full z-50">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
             <a href="#start" class="flex">
-                <img src="https://img.icons8.com/dusk/64/000000/developer.png" width="35px" height="35px"/>
+                <img src="https://img.icons8.com/cute-clipart/64/000000/developer-mode.png" width="35px" height="35px"/>
                 <span class="font-semibold text-xl tracking-tight mt-1 ml-2">{{nick_name}}</span>
             </a>
         </div>

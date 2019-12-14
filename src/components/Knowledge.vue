@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap w-full md:w-3/5 md:mx-auto py-5">
+    <div class="flex flex-wrap w-full md:w-3/5 md:mx-auto mb-20 py-5">
         <HeaderSection title="Conocimientos"/>
         <div class="w-full">
             <div class="flex flex-wrap justify-between text-center">

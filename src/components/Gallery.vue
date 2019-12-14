@@ -1,5 +1,5 @@
 <template>
-    <div id="gallery" class="flex flex-col">
+    <div id="gallery" class="flex flex-col mb-20">
         <div v-for="({ company, images}, g_index) in gallery_by_work" :key="g_index" class="flex flex-wrap w-full md:w-3/5 md:mx-auto py-5">
             <HeaderSection title="Galería" :subtitle="company" />
             <div class="w-full flex flex-wrap">
@@ -29,7 +29,7 @@
                 url: process.env.VUE_APP_URL,
                 gallery_by_work:[
                     {
-                        company: 'STM',
+                        company: 'STM INTRANET',
                         images:[
                             {
                                 src: '/img/stm/login.png',
@@ -46,11 +46,60 @@
                         ]
                     },
                     {
-                        company: 'SECREA',
+                        company: 'SECREA WEB',
                         images:[
                             {
-                                src: '/img/secrea/home.png',
+                                src: '/img/secrea/web_home.png',
                                 name: 'Home'
+                            },
+                            {
+                                src: '/img/secrea/web_1.png',
+                                name: 'Courses'
+                            },
+                            {
+                                src: '/img/secrea/web_2.png',
+                                name: 'Course'
+                            },
+                            {
+                                src: '/img/secrea/web_3.png',
+                                name: 'Content'
+                            },
+                            {
+                                src: '/img/secrea/web_4.png',
+                                name: 'Chat'
+                            },
+                        ]
+                    },
+                    {
+                        company: 'SECREA APP',
+                        images:[
+                            {
+                                src: '/img/secrea/app_1.jpg',
+                                name: 'Login'
+                            },
+                            {
+                                src: '/img/secrea/app_2.jpg',
+                                name: 'Home'
+                            },
+                            {
+                                src: '/img/secrea/app_3.jpg',
+                                name: 'Sidebar'
+                            },
+                            {
+                                src: '/img/secrea/app_4.jpg',
+                                name: 'Courses'
+                            },
+                            {
+                                src: '/img/secrea/app_5.jpg',
+                                name: 'Course'
+                            },
+                            {
+                                src: '/img/secrea/app_6.jpg',
+                                name: 'Content'
+                            },
+                            {
+                                src: '/img/secrea/app_7.jpg',
+                                name: 'Content'
                             },
                         ]
                     }
