@@ -1,4 +1,12 @@
-# danny-salazar
+# Portafolio web: Danny Salazar
+
+Soy un desarrollador Full Stack en Perú.
+
+Lenguajes, herramientas o tecnologías que utilizado para desarrollar este simple portafolio:
+
+- [Vue CLI](https://cli.vuejs.org/).
+- [Tailwindcss](https://tailwindcss.com/).
+- [Travis CI](https://travis-ci.org/).
 
 ## Project setup
 ```

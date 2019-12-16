@@ -5,7 +5,7 @@
             <div class="flex flex-wrap justify-between text-center">
                 <div  v-for="(knowledge,index) in knowledges" :key="index" class="flex m-2 rounded-lg  w-full lg:w-1/4" :class="knowledge.class">
                     <div v-html="knowledge.icon_svg"></div>
-                    <span class="text-2xl px-2 mt-5">{{knowledge.name}}</span>
+                    <span class="text-2xl px-2 mt-4">{{knowledge.name}}</span>
                 </div>
             </div>
         </div>

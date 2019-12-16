@@ -3,7 +3,7 @@
     <div class="app-header">
       <Navbar/>
     </div>
-    <div class="app-content h-screen pt-24">
+    <div class="app-content h-screen pt-20">
       <CardPresentation/>
       <Knowledge/>
       <Experience/>

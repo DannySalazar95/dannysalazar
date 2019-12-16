@@ -1,16 +1,14 @@
 <template>
-    <div id="start" class="flex w-full md:w-3/5 md:mx-auto pb-20 md:py-20">
-        <div class="w-full bg-gray-100 p-4 flex flex-col justify-between leading-normal">
+    <div id="start" class="flex w-full bg-gray-800 pb-20 md:py-20 text-white">
+        <div class="w-full md:w-3/5 md:mx-auto p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
-                <p class="text-sm text-gray-600 text-right">
-                    
-                </p>
-                <div id="CP_title" class="text-gray-800 font-bold text-4xl md:text-6xl mb-2">
-                    PORTAFOLIO WEB
+                <div id="CP_title" class="font-bold text-3xl md:text-5xl mb-2">
+                    <p>Hola! Soy <span class="text-teal-200">Danny Salazar</span></p>
+                    <p>Desarrollador <span class="text-teal-200">Full Stack</span></p>
                 </div>
                 <div class="flex flex-col text-base">
-                    <div v-for="(dato,index) in list_info" :key="index" class="w-full flex flex-row text-gray-700">
-                        <svg class="fill-current text-gray-700 w-5 h-5 mr-1" xmlns="http://www.w3.org/2000/svg" :viewBox="dato.icon_svg.view_box"><path :d="dato.icon_svg.path_d"/></svg>
+                    <div v-for="(dato,index) in list_info" :key="index" class="w-full flex flex-row">
+                        <svg class="fill-current w-5 h-5 mr-1" xmlns="http://www.w3.org/2000/svg" :viewBox="dato.icon_svg.view_box"><path :d="dato.icon_svg.path_d"/></svg>
                         {{dato.content}}
                     </div>
                 </div>
@@ -18,8 +16,8 @@
             <div class="flex items-center">
                 <img class="w-10 h-10 rounded-full mr-4" :src="`${url}/img/profile.jpg`" alt="Avatar of Danny Salazar">
                 <div class="text-sm">
-                    <p class="text-gray-900 leading-none">{{name}}</p>
-                    <p class="text-gray-600">{{ (new Date).getFullYear() - 1995 }} años - Lambayeque,Perú</p>
+                    <p class="leading-none">{{name}}</p>
+                    <p>{{ (new Date).getFullYear() - 1995 }} años - Lambayeque,Perú</p>
                 </div>
             </div>
         </div>

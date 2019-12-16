@@ -61,7 +61,7 @@
                             width:'250px',
                             height:'90px',
                         },
-                        description:'Mantemiento de sistema web y desarrollo de app-android SECREA. El desarrollo de la app se realizó con el framework `react-native`',
+                        description:'Desarrollo de nuevo sistema web y desarrollo de app-android SECREA. El desarrollo de la app se realizó con el framework `react-native`',
                         link:'https://www.secundariacreativa.com/',
                         work_dates:'Mayo de 2018 - Enero de 2019'
                     },
