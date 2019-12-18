@@ -1,5 +1,5 @@
 <template>
-    <div id="start" class="flex w-full bg-gray-800 pb-20 md:py-20 text-white">
+    <div id="start" class="flex w-full bg-gray-800 pb-10 md:py-20 text-white mb-5" style="border-radius: 0 0 50px 50px">
         <div class="w-full md:w-3/5 md:mx-auto p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
                 <div id="CP_title" class="font-bold text-3xl md:text-5xl mb-2">
@@ -14,9 +14,9 @@
                 </div>
             </div>
             <div class="flex items-center">
-                <img class="w-10 h-10 rounded-full mr-4" :src="`${url}/img/profile.jpg`" alt="Avatar of Danny Salazar">
+                <img class="w-40 h-40 rounded-full mr-4" :src="`${url}/img/profile.jpg`" alt="Avatar of Danny Salazar">
                 <div class="text-sm">
-                    <p class="leading-none">{{name}}</p>
+                    <p class="text-teal-200 leading-none">{{name}}</p>
                     <p>{{ (new Date).getFullYear() - 1995 }} años - Lambayeque,Perú</p>
                 </div>
             </div>

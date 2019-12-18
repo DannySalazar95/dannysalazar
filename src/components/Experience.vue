@@ -2,7 +2,7 @@
     <div id="experience" class="flex flex-wrap w-full md:w-3/5 md:mx-auto py-5 overflow-x-auto mb-20">
         <HeaderSection title="Experiencia"/>
         <div class="w-full flex flex-col">
-            <div v-for="({company, logo,description,link,work_dates},index) in works" :key="index" class="w-full border border-gray-400 bg-white p-4 flex flex-col justify-between leading-normal mb-1">
+            <div v-for="({company, logo,description,link,work_dates},index) in works" :key="index" class="w-full rounded-lg border border-gray-400 bg-white py-4 px-8 flex flex-col justify-between leading-normal mb-4">
                 <div class="mb-8">
                     <img class="mb-2" :src="`${url}${logo.url}`" :alt="company" :width="logo.width" :height="logo.height">
                     <hr>
@@ -50,7 +50,7 @@
                             width:'250px',
                             height:'90px',
                         },
-                        description:'Desarrollo y mantenimiento de sistema intranet , utilizando las siguientes herramientas, tecnologías y lenguajes: `Laravel` `php` `Vuejs` `vuex` `jquery` `boostrap` `Mysql` `Git Lab` y otros',
+                        description:'Desarrollo y mantenimiento de sistema intranet , utilizando las siguientes herramientas, tecnologías y lenguajes: <br>`Laravel` `php` `Vuejs` `vuex` `vue-router` `Javascript` `jquery` `boostrap` `Admin4b` `Mysql` `GitLab` `Passport` y otros',
                         link:'https://stm.edu.pe/',
                         work_dates:'Marzo de 2019 - Oct de 2019'
                     },
@@ -61,7 +61,7 @@
                             width:'250px',
                             height:'90px',
                         },
-                        description:'Desarrollo de nuevo sistema web y desarrollo de app-android SECREA. El desarrollo de la app se realizó con el framework `react-native`',
+                        description:'Desarrollo de nuevo sistema web y desarrollo de app-android SECREA. El desarrollo de la app se realizó con: <br>`react-native` `react-navigation`',
                         link:'https://www.secundariacreativa.com/',
                         work_dates:'Mayo de 2018 - Enero de 2019'
                     },
@@ -72,7 +72,7 @@
                             width:'150px',
                             height:'84px',
                         },
-                        description:'Apoyo en mantenimiento de los sistemas académicos de la Universidad de Lambayeque, sistemas basados en el framework `Django`',
+                        description:'Apoyo en mantenimiento de los sistemas académicos de la Universidad de Lambayeque, sistemas basados en el framework `Django - Python`',
                         link:'http://www.udl.edu.pe/',
                         work_dates:'Noviembre de 2017 - Mayo de 2018'
                     },
@@ -83,7 +83,7 @@
                             width:'250px',
                             height:'90px',
                         },
-                        description:'Apoyo para el desarrollo de plataforma E-learning, utilizando las siguientes herramientas, tecnologías y lenguajes: `Laravel` `php` `Vuejs` `vuex` `Pusher` `Mailgun` `API’s` y otros',
+                        description:'Apoyo para el desarrollo de plataforma E-learning, utilizando las siguientes herramientas, tecnologías y lenguajes: <br> `Laravel` `php` `Vuejs` `vuex` `Pusher` `Mailgun` `API’s` `Passport` y otros',
                         link:'https://www.secundariacreativa.com/',
                         work_dates:'Julio de 2017 - Noviembre de 2017'
                     },
@@ -98,11 +98,11 @@
     code {
         background: #2d3748;
         color: #b2f5ea;
-		padding-right: 5px;
-		padding-left: 5px;
-		padding-top: 2px;
-		padding-bottom: 2px;
+		padding-right: 6px;
+		padding-left: 6px;
+		padding-top: 3px;
+		padding-bottom: 3px;
 		border-radius: 5px;
-		font-size: 14px !important;
+		font-size: 17px !important;
     }
 </style>
