@@ -72,7 +72,7 @@
                             width:'150px',
                             height:'84px',
                         },
-                        description:'Apoyo en mantenimiento de los sistemas académicos de la Universidad de Lambayeque, sistemas basados en el framework `Django - Python`',
+                        description:'Apoyo en mantenimiento de los sistemas académicos de la Universidad de Lambayeque, sistemas basados en el framework `Django-Python`',
                         link:'http://www.udl.edu.pe/',
                         work_dates:'Noviembre de 2017 - Mayo de 2018'
                     },
@@ -103,6 +103,6 @@
 		padding-top: 3px;
 		padding-bottom: 3px;
 		border-radius: 5px;
-		font-size: 17px !important;
+		font-size: 14px !important;
     }
 </style>
