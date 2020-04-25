@@ -1,7 +1,7 @@
 <template>
     <div class="flex w-full">
         <span class="text-xl text-white bg-gray-800 px-4 pt-1 mb-2"> 
-            ~/{{title}}
+            {{title}}
         </span>
         <span class="bg-teal-500 mb-2">
             <svg class="fill-current text-gray-800 w-6 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="90 110 50 280"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>

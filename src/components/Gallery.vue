@@ -29,6 +29,35 @@
                 url: process.env.VUE_APP_URL,
                 gallery_by_work:[
                     {
+                        company: 'GLOBAL HITSS',
+                        images:[
+                            {
+                                src: '/img/global_hitss/notifications.PNG',
+                                name: 'Alertas'
+                            },
+                            {
+                                src: '/img/global_hitss/automatic_procedure.PNG',
+                                name: 'Procedimientos'
+                            },
+                            {
+                                src: '/img/global_hitss/automatic_procedure_control.PNG',
+                                name: 'Control'
+                            },
+                            {
+                                src: '/img/global_hitss/console.PNG',
+                                name: 'Console'
+                            },
+                            {
+                                src: '/img/global_hitss/charts.PNG',
+                                name: 'Charts'
+                            },
+                            {
+                                src: '/img/global_hitss/charts2.PNG',
+                                name: 'Charts'
+                            },
+                        ]
+                    },
+                    {
                         company: 'STM INTRANET',
                         images:[
                             {
