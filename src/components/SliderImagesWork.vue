@@ -7,7 +7,7 @@
                     class="slide-bar__img"
                     v-for="(work, index) in works"
                     :key="index"
-                    :src="work.image_url"
+                    :src="`${url}${work.image_url}`"
                 >
             </infinite-slide-bar>
         </div>
@@ -26,6 +26,7 @@
         },
         data () {
             return {
+                url: process.env.VUE_APP_URL,
                 works: [
                     {
                         image_url: '/img/udl.png'
