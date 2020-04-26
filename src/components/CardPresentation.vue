@@ -9,8 +9,8 @@
                     :wrapper="'h2'"
                 />
                 <typical
-                    class="font-bold text-2xl md:text-5xl mb-2 text-teal-200"
-                    :steps="['👋 Bienvenido a mi portafolio web', 2000, '👋 Bachiller en Ingeniería de Sistemas', 3000, '👋 Desarrollador Full Stack', 3000]"
+                    class="font-bold text-xl md:text-5xl mb-2 text-teal-200"
+                    :steps="['👋 Bienvenido a mi portafolio', 2000, '👋 Bach. Ingeniería de Sistemas', 3000, '👋 Desarrollador Full Stack', 3000]"
                     :loop='Infinity'
                     :wrapper="'h3'"
                 />
